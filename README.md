@@ -13,4 +13,3 @@ The "Silver Tsunami" is-a-comin' and Pewlett Hackard needs to be prepared. We wi
 
 ## Summary
 
-
