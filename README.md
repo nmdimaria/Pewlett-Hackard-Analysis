@@ -6,7 +6,7 @@ The "Silver Tsunami" is-a-comin' and Pewlett Hackard needs to be prepared. We wi
 
 ## Results
 
-- ["retirement_titles"](Data/retirement_titles.csv) shows a list of every employee retiring and the titles they've held while at the company
+- [retirement_titles](Data/retirement_titles.csv) shows a list of every employee retiring and the titles they've held while at the company
 - ["unique_titles"](Data/unique_titles.csv) eliminates duplicate employees and just shows their current/most recent job title
 - ["retiring_titles"](Data/retiring_titles.csv) shows the number of employees retiring from each job title 
 - ["mentorship_eligibilty"](Data/mentorship_eligibilty.csv) shows which current employees are eligible to participate in a mentorship program for new hires
