@@ -13,3 +13,16 @@ The "Silver Tsunami" is-a-comin' and Pewlett Hackard needs to be prepared. We wi
 
 ## Summary
 
+`SELECT COUNT (emp_no), dept_name
+INTO dept_info_count
+FROM dept_info
+GROUP BY dept_name;`
+
+`SELECT COUNT (me.emp_no), d.dept_name
+INTO mentor_dept_count
+FROM mentorship_eligibility as me
+JOIN dept_employees as de
+on me.emp_no = de.emp_no
+JOIN "Departments" as d
+on de.dept_no = d.dept_no
+GROUP BY d.dept_name;`
