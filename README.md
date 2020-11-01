@@ -13,16 +13,7 @@ The "Silver Tsunami" is-a-comin' and Pewlett Hackard needs to be prepared. We wi
 
 ## Summary
 
-SELECT COUNT (emp_no), dept_name
-INTO dept_info_count
-FROM dept_info
-GROUP BY dept_name;
+As indicated in the analysis results, there are arounf 90,000 employees retiring this year; 70,000 of which are current employees (counting distinct employee ID numbers in [retirement_titles](Data/retirement_titles.csv)). 
 
-`SELECT COUNT (me.emp_no), d.dept_name
-INTO mentor_dept_count
-FROM mentorship_eligibility as me
-JOIN dept_employees as de
-on me.emp_no = de.emp_no
-JOIN "Departments" as d
-on de.dept_no = d.dept_no
-GROUP BY d.dept_name;`
+Further analysis help us understand if we can impliment this mentorship program effectively by showing a breakdown of potential mentors by department to ensure that there are enough mentors to teach new hires in each department as needed.
+[mentor_dept_count](Data/mentor_dept_count)
