@@ -16,4 +16,4 @@ The "Silver Tsunami" is-a-comin' and Pewlett Hackard needs to be prepared. We wi
 As indicated in the analysis results, there are arounf 90,000 employees retiring this year; 70,000 of which are current employees (counting distinct employee ID numbers in [retirement_titles](Data/retirement_titles.csv)). 
 
 Further analysis help us understand if we can impliment this mentorship program effectively by showing a breakdown of potential mentors by department to ensure that there are enough mentors to teach new hires in each department as needed.
-[mentor_dept_count](Data/mentor_dept_count)
+[mentor_dept_count](Data/mentor_dept_count.csv)
